@@ -1,0 +1,27 @@
+//<style>
+//#f1{background:pink;width:390px;border:5px solid red;}
+//#txt1{width:390px;height:50px;font-size:30px;background:gray;}
+//#bt1{width:70px;height:50px;margin:10px;font-size:20px;}
+//</style>
+<body>
+<form name="calci" id="f1">
+<input type="text" name="result" id="txt1"><br><br>
+<input type="button" id="bt1" value="0" onclick="calci.result.value +='0'">
+<input type="button" id="bt1" value="1" onclick="calci.result.value +='1'">
+<input type="button" id="bt1" value="2" onclick="calci.result.value +='2'">
+<input type="button" id="bt1" value="3" onclick="calci.result.value +='3'">
+<input type="button" id="bt1" value="4" onclick="calci.result.value +='4'">
+<input type="button" id="bt1" value="5" onclick="calci.result.value +='5'">
+<input type="button" id="bt1" value="6" onclick="calci.result.value +='6//'">
+<input type="button" id="bt1" value="7" onclick="calci.result.value +='7'">
+<input type="button" id="bt1" value="8" onclick="calci.result.value +='8'">
+<input type="button" id="bt1" value="9" onclick="calci.result.value +='9'">
+<input type="button" id="bt1" value="" onclick="calci.result.value +=''">
+<input type="button" id="bt1" value="+" onclick="calci.result.value +='+'">
+<input type="button" id="bt1" value="-" onclick="calci.result.value +='-'">
+<input type="button" id="bt1" value="/" onclick="calci.result.value +='/'">
+<input type="button" id="bt1" value="=" onclick="calci.result.value
+=eval(calci.result.value)">
+<input type="button" id="bt1" value="clear" onclick="calci.result.value=''"><br>
+</form>
+</body>
